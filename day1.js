@@ -1,12 +1,10 @@
-const numberToString=(num)=>
+function range(x,y)
 {
-    const number=["zero","one","two","three","four","five","six","seven","eight","nine"];
-    let string=" ";
-    let numArr=num.toString.split("");
+    var results =[];
+    if(x === y)
+    {
+        console.log(result);
+    }
+console.log(range(x + 1,y));
 }
-for(var i=0;i<numArr.length;i++)
-{
-    string +=number[parseInt(numArr[i])]+" ";
-}
-console.log(string);
-numberToString(1234);
+range(2,9);
